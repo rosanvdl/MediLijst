@@ -1,0 +1,85 @@
+html, head, body, #root, main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial;
+  font-size: 20p;
+  width: max;
+}
+
+button {
+  padding: 14px, 20px;
+  display: block;
+  font-size: 15px;
+}
+
+script {
+  margin: 20px;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #222e6d;
+  font-family: Arial;
+  width: max;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #515776;
+}
+#hoofdpagina {
+  text-align: center;
+}
+
+/* Right-aligned section inside the top navigation */
+.navbar-right {
+  float: right;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  height: 100%;
+  column-gap: 20px;
+  width: 50%;
+}
+
+/* Blocks inside grid */
+.grid-item {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.card-body {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 375px;
+}
+
+#uitloggen {
+  border: none;
+  text-align: right;
+}
+
+#foto-overzicht {
+  width: 50px;
+  height: 50px;
+}
+
+
+
