@@ -3,14 +3,7 @@ html, head, body, #root, main {
   padding: 0;
   height: 100%;
   font-family: Arial;
-  font-size: 20p;
-  width: max;
-}
-
-button {
-  padding: 14px, 20px;
-  display: block;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 script {
@@ -22,7 +15,6 @@ script {
   overflow: hidden;
   background-color: #222e6d;
   font-family: Arial;
-  width: max;
 }
 
 /* Links inside the navbar */
