@@ -1,11 +1,10 @@
 import './App.css'
-import 
-
+import Navigatiebalk from './Navigatiebalk.jsx'
 class App extends React.Component {
   render() {
   return (
     <main>
-      
+      <Navigatiebalk />
       <div className="grid-container">
         <div className="grid-item">
             <div className="card">

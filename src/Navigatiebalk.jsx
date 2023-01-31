@@ -1,6 +1,6 @@
 import './App.css'
 
-class App extends React.Component {
+class Navigatiebalk extends React.Component {
   render() {
     return (
       <main>
