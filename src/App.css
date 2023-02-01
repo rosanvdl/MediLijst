@@ -43,7 +43,7 @@ script {
   grid-template-rows: auto auto auto;
   height: 100%;
   column-gap: 20px;
-  width: 50%;
+  width: 100%;
 }
 
 /* Blocks inside grid */
