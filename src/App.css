@@ -2,7 +2,6 @@ html, head, body, #root, main {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: Arial;
   font-size: 20px;
 }
 
@@ -14,7 +13,6 @@ script {
 .navbar {
   overflow: hidden;
   background-color: #222e6d;
-  font-family: Arial;
 }
 
 /* Links inside the navbar */
