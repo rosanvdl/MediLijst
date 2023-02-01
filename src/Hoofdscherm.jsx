@@ -1,15 +1,11 @@
 import './App.css'
 import React from 'react'
+import Navigatiebalk from "./Navigatiebalk.jsx";
 export default class Hoofdscherm extends React.Component {
     render() {
         return (
             <main>
-                <div className="navbar">
-                    <a className="active" href="index.html">Home</a>
-                    <div className="navbar-right">
-                        <a href="index.html">Uitloggen</a>
-                    </div>
-                </div>
+                <Navigatiebalk/>
 
                 <div className="grid-container">
                     <div className="grid-item">
