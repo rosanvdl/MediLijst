@@ -1,5 +1,5 @@
 import './App.css'
-
+import React from 'react'
 export default class Navigatiebalk extends React.Component {
   render() {
     return (
