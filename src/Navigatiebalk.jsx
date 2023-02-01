@@ -14,6 +14,3 @@ export default class Navigatiebalk extends React.Component {
     )
   }
 }
-
-export default class Navigatiebalk {
-}
