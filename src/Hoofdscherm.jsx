@@ -1,6 +1,6 @@
 import './App.css'
 
-class Hoofdscherm extends React.Component {
+export default class Hoofdscherm extends React.Component {
     render() {
         return (
             <main>
@@ -59,7 +59,4 @@ class Hoofdscherm extends React.Component {
             </main>
         )
     }
-}
-
-export default class Hoofdscherm {
 }
