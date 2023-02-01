@@ -4,6 +4,13 @@ export default class Hoofdscherm extends React.Component {
     render() {
         return (
             <main>
+                <div className="navbar">
+                    <a className="active" href="index.html">Home</a>
+                    <div className="navbar-right">
+                        <a href="index.html">Uitloggen</a>
+                    </div>
+                </div>
+
                 <div className="grid-container">
                     <div className="grid-item">
                         <div className="card">
