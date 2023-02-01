@@ -1,6 +1,6 @@
 import './App.css'
 
-class Navigatiebalk extends React.Component {
+export default class Navigatiebalk extends React.Component {
   render() {
     return (
       <main>
@@ -13,4 +13,7 @@ class Navigatiebalk extends React.Component {
       </main>
     )
   }
+}
+
+export default class Navigatiebalk {
 }
