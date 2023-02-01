@@ -28,7 +28,7 @@ script {
 .navbar a:hover {
   background-color: #515776;
 }
-#hoofdpagina {
+#hoofdpagina-titel {
   text-align: center;
 }
 
@@ -59,16 +59,6 @@ script {
   padding: 10px;
   margin: 10px;
   width: 375px;
-}
-
-#uitloggen {
-  border: none;
-  text-align: right;
-}
-
-#foto-overzicht {
-  width: 50px;
-  height: 50px;
 }
 
 

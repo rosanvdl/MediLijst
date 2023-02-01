@@ -1,12 +1,22 @@
 import './App.css'
 import React from 'react'
-import Navigatiebalk from "./Navigatiebalk.jsx";
 export default class Hoofdscherm extends React.Component {
     render() {
         return (
             <main>
-                <Navigatiebalk/>
-
+                <div className="navbar">
+                    <a className="active" href="index.html">Home</a>
+                    <a className={"active"} href={"overzicht.html"}>Overzicht</a>
+                    <a className={"active"} href={""}>Alarm</a>
+                    <div className="navbar-right">
+                        <a href="index.html">Uitloggen</a>
+                    </div>
+                </div>
+                <div className={"hoofdscherm-titel"}>
+                    <h1>Welkom bij MediLijst</h1>
+                    <h3>Uw online medicatieoverzicht</h3>
+                    <p>Kies hieronder waar u naar toe wilt</p>
+                </div>
                 <div className="grid-container">
                     <div className="grid-item">
                         <div className="card">
