@@ -60,3 +60,6 @@ class Hoofdscherm extends React.Component {
         )
     }
 }
+
+export default class Hoofdscherm {
+}
