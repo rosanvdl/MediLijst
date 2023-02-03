@@ -3,7 +3,6 @@ import React from 'react'
 export default class Navigatiebalk extends React.Component {
     render() {
         return (
-
                 <div className="navbar">
                     <button>Home</button>
                     <button>Overzicht</button>
