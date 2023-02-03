@@ -1,6 +1,7 @@
 import './App.css'
 import React from 'react'
-import elementen from "./Elementen.jsx";
+import './Elementen.jsx';
+import {elementen} from "./Constanten.jsx";
 export default class Hoofdscherm extends React.Component {
     render() {
         return (
