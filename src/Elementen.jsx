@@ -1,5 +1,5 @@
 import React from 'react';
-import 'Elementen.css';
+import './Elementen.css';
 class Elementen extends React.Component {
 
     render() {
