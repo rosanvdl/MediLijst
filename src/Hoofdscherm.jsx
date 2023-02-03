@@ -4,14 +4,6 @@ export default class Hoofdscherm extends React.Component {
     render() {
         return (
             <main>
-                <div className="navbar">
-                    <a className="active" href="index.html">Home</a>
-                    <a className={"active"} href={"overzicht.html"}>Overzicht</a>
-                    <a className={"active"} href={""}>Alarm</a>
-                    <div className="navbar-right">
-                        <a href="index.html">Uitloggen</a>
-                    </div>
-                </div>
                 <div className={"hoofdscherm-titel"}>
                     <h1>Welkom bij MediLijst</h1>
                     <h3>Uw online medicatieoverzicht</h3>
@@ -56,15 +48,6 @@ export default class Hoofdscherm extends React.Component {
                                 <p className="card-text">Weet wat u moet doen als voorbereiding op het
                                     consult. <br></br>Download, print uit en neem uw overzicht mee naar het consult.</p>
                                 <a href="consult.html" className="card-link">Naar het consult→</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="grid-item">
-                        <div className="card">
-                            <div className="card-body" id="uitloggen">
-                                <h3 className="card-title">Uitloggen</h3>
-                                <p className="card-text"></p>
-                                <a href="uitloggen.html" className="card-link">Naar uitloggen→</a>
                             </div>
                         </div>
                     </div>
