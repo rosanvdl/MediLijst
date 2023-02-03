@@ -9,7 +9,11 @@ export default class Hoofdscherm extends React.Component {
                     <h3>Uw online medicatieoverzicht</h3>
                     <p>Kies hieronder waar u naar toe wilt</p>
                 </div>
-                 {/*element aanmaken met property elementen*/}
+                {Object.entries(elementen).map((item) => {
+                    return <Element key={item[0]} element={item[1]} canvas={this} id={item[0]}/>
+                })
+                }
+
             </div>
         )
     }
