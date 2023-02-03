@@ -1,6 +1,6 @@
 import './App.css'
 import React from 'react'
-import './Elementen.jsx';
+import Elementen from './Elementen.jsx';
 import {elementen} from "./Constanten.jsx";
 export default class Hoofdscherm extends React.Component {
     render() {
@@ -12,7 +12,7 @@ export default class Hoofdscherm extends React.Component {
                     <p>Kies hieronder waar u naar toe wilt</p>
                 </div>
                 {Object.entries(elementen).map((item) => {
-                    return <Element key={item[0]} element={item[1]} canvas={this} id={item[0]}/>
+                    return <Elementen key={item[0]} element={item[1]} canvas={this} id={item[0]}/>
                 })
                 }
 
