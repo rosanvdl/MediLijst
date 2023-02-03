@@ -3,7 +3,7 @@ import React from 'react'
 export default class Navigatiebalk extends React.Component {
     render() {
         return (
-            <main>
+
                 <div className="navbar">
                     <button>Home</button>
                     <button>Overzicht</button>
@@ -14,7 +14,7 @@ export default class Navigatiebalk extends React.Component {
                         <button>Uitloggen</button>
                     </div>
                 </div>
-            </main>
+
         )
     }
 }
