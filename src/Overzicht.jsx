@@ -1,12 +1,12 @@
 import './App.css'
 import React from 'react'
 
-export default class Overzicht extends React.Component {
+class Overzicht extends React.Component {
     render() {
         if (this.state.status.huidigScherm === "Overzicht") {
             return (
                 <main>
-                    <div className="App">
+                    <div className="overzicht-tabel">
                         <table>
                             <tr>
                                 <th>Nummer</th>
@@ -41,5 +41,6 @@ export default class Overzicht extends React.Component {
                 </main>
             )
         }
+        else {}
     }
 }
