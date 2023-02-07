@@ -12,11 +12,15 @@ class Elementen extends React.Component {
                             <img className="card-image" src={image} alt={"test"}></img>
                             <h3 className="card-title">{titel}</h3>
                             <p className="card-text">{beschrijving}</p>
-                            <button className="card-button-link">Naar uw {link}→</button>
+                            <button onClick={this.huidigSchermAanpassen.bind(this)}
+                                    className="card-button-link">Naar uw {link}→</button>
                         </div>
                     </div>
                 </div>
         </div>
+    }
+    huidigSchermAanpassen = () => {
+        this.state.status.huidigScherm = this.props.element.titel;
     }
 }
     export default Elementen;
