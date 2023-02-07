@@ -24,7 +24,7 @@ export default class Hoofdscherm extends React.Component {
 
 
                     {Object.entries(elementen).map((item) => {
-                        return <Elementen key={item[0]} element={item[1]} canvas={this} id={item[0]}/>
+                        return <Elementen key={item[0]} element={item[1]} hoofdscherm={this} id={item[0]}/>
                     })
                     }
 

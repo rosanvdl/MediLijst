@@ -20,7 +20,8 @@ class Elementen extends React.Component {
         </div>
     }
     huidigSchermAanpassen = () => {
-        this.state.status.huidigScherm = this.props.element.titel;
+        const hoofdscherm = this.props.hoofdscherm;
+        hoofdscherm.state.status.huidigScherm = this.props.element.titel;
     }
 }
     export default Elementen;
