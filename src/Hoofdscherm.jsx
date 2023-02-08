@@ -2,18 +2,13 @@ import './App.css'
 import React from 'react'
 import Elementen from './Elementen.jsx';
 import {elementen} from "./Constanten.jsx";
+
 export default class Hoofdscherm extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            status: {
-                huidigScherm: "hoofdscherm"
-            }
-        }
-    }
+
 
     render() {
-        if (this.state.status.huidigScherm === "hoofdscherm") {
+        if (this.props.app.state.huidigScherm === "hoofdscherm") {
+
             return (
                 <div>
                     <div className={"hoofdscherm-titel"}>
@@ -22,15 +17,16 @@ export default class Hoofdscherm extends React.Component {
                         <p>Kies hieronder waar u naar toe wilt</p>
                     </div>
 
-
-                    {Object.entries(elementen).map((item) => {
-                        return <Elementen key={item[0]} element={item[1]} hoofdscherm={this} id={item[0]}/>
-                    })
-                    }
-
+                    <div className={"objecten"}>
+                        {Object.entries(elementen).map((item) => {
+                            return <Elementen key={item[0]} element={item[1]} app={this.props.app} id={item[0]}/>
+                        })
+                        }
+                    </div>
                 </div>
             )
+
+        } else {
         }
-        else {}
     }
 }

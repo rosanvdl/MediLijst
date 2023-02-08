@@ -9,7 +9,6 @@ class Elementen extends React.Component {
                 <div className="grid-item">
                     <div className="card">
                         <div className="card-body">
-                            <img className="card-image" src={image} alt={"test"}></img>
                             <h3 className="card-title">{titel}</h3>
                             <p className="card-text">{beschrijving}</p>
                             <button onClick={this.huidigSchermAanpassen.bind(this)}
@@ -20,8 +19,8 @@ class Elementen extends React.Component {
         </div>
     }
     huidigSchermAanpassen = () => {
-        const hoofdscherm = this.props.hoofdscherm;
-        hoofdscherm.state.status.huidigScherm = this.props.element.titel;
+        const app = this.props.app;
+        app.setState({huidigScherm: this.props.element.titel})
     }
 }
     export default Elementen;
