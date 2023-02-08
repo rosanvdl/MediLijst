@@ -9,7 +9,7 @@ export default class Navigatiebalk extends React.Component {
                     <button>Alarm</button>
                     <button>Geschiedenis</button>
                     <div className="navbar-right">
-                        <button>Consult</button>
+                        <button>Overzicht downloaden</button>
                         <button>Uitloggen</button>
                     </div>
                 </div>

@@ -3,7 +3,7 @@ import './Elementen.css';
 class Elementen extends React.Component {
 
     render() {
-        const {titel, beschrijving, image, link} = this.props.element;
+        const {titel, beschrijving, link} = this.props.element;
         const id = this.props.id;
         return <div className={"canvasElement " + id}>
                 <div className="grid-item">

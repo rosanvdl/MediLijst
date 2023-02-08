@@ -29,6 +29,11 @@ script {
 
 .navbar button:hover {
     background-color: #515776;
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .hoofdscherm-titel {
