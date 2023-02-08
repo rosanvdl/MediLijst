@@ -41,15 +41,7 @@ button:hover {
     cursor: pointer;
 }
 
-.hoofdscherm-titel {
-    text-align: center;
-}
-
-.overzicht-titel {
-    text-align: center;
-}
-
-.alarm-titel {
+.titel {
     text-align: center;
 }
 

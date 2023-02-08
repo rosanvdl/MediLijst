@@ -11,7 +11,7 @@ export default class Hoofdscherm extends React.Component {
 
             return (
                 <div id={"Home"}>
-                    <div className={"hoofdscherm-titel"}>
+                    <div className={"titel"}>
                         <h1>Welkom bij MediLijst</h1>
                         <h3>Uw online medicatieoverzicht</h3>
                         <p>Kies hieronder waar u naar toe wilt</p>

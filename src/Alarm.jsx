@@ -6,7 +6,7 @@ export default class Alarm extends React.Component {
         if (this.props.app.state.huidigScherm === "Alarm") {
             return (
                 <main>
-                    <div className={"alarm-titel"}>
+                    <div className={"titel"}>
                         <h1>Welkom bij uw medicatie-alarmen</h1>
                         <p>Hier ziet u alle alarmen die u heeft ingesteld zodat u het innemen van de medicatie niet
                             vergeet</p>

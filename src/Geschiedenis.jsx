@@ -6,11 +6,11 @@ export default class Geschiedenis extends React.Component {
         if (this.props.app.state.huidigScherm === "Geschiedenis") {
             return (
                 <main>
-                    <div className={"geschiedenis-titel"}>
+                    <div className={"titel"}>
                         <h1>Welkom bij uw medicatiegeschiedenis</h1>
                         <p>Hier ziet u alle medicatie waar u mee gestopt bent</p>
                     </div>
-                    <div className="alarm-tabel">
+                    <div className="geschiedenis-tabel">
                         <table>
                             <tbody>
                             <tr id={"tabel-titel"}>
@@ -20,15 +20,18 @@ export default class Geschiedenis extends React.Component {
                             </tr>
                             <tr id={"tabel-rij"}>
                                 <td className={"Nummer-text"}>1</td>
-                                <td>Aldactazide</td>
+                                <td>Antibiotica</td>
+                                <td>3 tabletten per dag</td>
                             </tr>
                             <tr id={"tabel-rij"}>
                                 <td className={"Nummer-text"}>2</td>
-                                <td>Allopurinol</td>
+                                <td>Paracetamol</td>
+                                <td>Bij klachten, maximaal 4 tabletten per dag</td>
                             </tr>
                             <tr id={"tabel-rij"}>
                                 <td className={"Nummer-text"}>3</td>
-                                <td>Lisinopril</td>
+                                <td>Warfarine</td>
+                                <td>1 tablet per dag</td>
                             </tr>
                             </tbody>
                         </table>
