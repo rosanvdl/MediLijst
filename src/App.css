@@ -32,6 +32,11 @@ script {
     cursor: pointer;
 }
 
+/* Right-aligned section inside the top navigation */
+.navbar-right {
+    float: right;
+}
+
 button:hover {
     cursor: pointer;
 }
@@ -40,10 +45,14 @@ button:hover {
     text-align: center;
 }
 
-/* Right-aligned section inside the top navigation */
-.navbar-right {
-    float: right;
+.overzicht-titel {
+    text-align: center;
 }
+
+.alarm-titel {
+    text-align: center;
+}
+
 
 .objecten {
     display: flex;
@@ -73,7 +82,14 @@ table {
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+}
 
+tr:nth-child(even) {
+    background: #CCC
+}
+
+tr:nth-child(odd) {
+    background: #FFF
 }
 
 .VoegToeMed {
@@ -88,17 +104,15 @@ table, th, td {
 .Nummer {
     width: 20px;
 }
+
 .Nummer-text {
     text-align: center;
 }
 
-.overzicht-titel {
-    text-align: center;
+.Bewerk {
+    width: 50px;
 }
 
-.Bewerken {
-    width: 80px;
-}
 .BewerkMed {
     margin-left: 5px;
 }

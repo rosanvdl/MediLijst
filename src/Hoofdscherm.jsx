@@ -6,11 +6,11 @@ import {elementen} from "./Constanten.jsx";
 export default class Hoofdscherm extends React.Component {
 
 
-    render() {
-        if (this.props.app.state.huidigScherm === "hoofdscherm") {
+    render () {
+        if (this.props.app.state.huidigScherm === "Home") {
 
             return (
-                <div>
+                <div id={"Home"}>
                     <div className={"hoofdscherm-titel"}>
                         <h1>Welkom bij MediLijst</h1>
                         <h3>Uw online medicatieoverzicht</h3>

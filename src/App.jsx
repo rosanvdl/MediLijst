@@ -3,12 +3,13 @@ import React from 'react'
 import Hoofdscherm from './Hoofdscherm.jsx'
 import Navigatiebalk from "./Navigatiebalk.jsx";
 import Overzicht from "./Overzicht.jsx";
+import Alarm from "./Alarm.jsx";
 
 export default class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-                huidigScherm: "hoofdscherm"
+                huidigScherm: "Home"
         }
     }
     render() {
