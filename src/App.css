@@ -3,12 +3,17 @@ html, head, body, #root, main {
     padding: 0;
     height: 100%;
     font-size: 20px;
+    font-family: Arial;
 }
 
 script {
     margin: 20px;
 }
-
+h1 {
+    background-color: #d2d6ef;
+    font-size: 30px;
+    text-align: center;
+}
 /* Navbar container */
 .navbar {
     overflow: hidden;
@@ -86,11 +91,10 @@ tr:nth-child(odd) {
 
 .VoegToeMed {
     width: 100px;
-    height: 50px;
+    height: 30px;
     font-size: large;
     float: right;
-    margin-right: 152px;
-    margin-top: 50px;
+    margin-right: 300px;
 }
 
 .Nummer {
@@ -101,11 +105,20 @@ tr:nth-child(odd) {
     text-align: center;
 }
 
-.Bewerk {
-    width: 50px;
+input {
+    width: auto;
 }
 
-.BewerkMed {
-    margin-left: 5px;
+.form-table {
+    width: 25%;
+    float: left;
+    margin-right: 100px;
+    margin-left: 500px;
 }
+
+.h1 {
+    float: left;
+}
+
+
 
