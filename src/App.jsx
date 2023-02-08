@@ -16,7 +16,7 @@ export default class App extends React.Component {
 
         return (
             <main>
-                <Navigatiebalk/>
+                <Navigatiebalk app={this}/>
                 <Hoofdscherm app={this}/>
                 <Overzicht app={this}/>
                 <Alarm app={this}/>

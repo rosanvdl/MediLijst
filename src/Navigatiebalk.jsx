@@ -5,7 +5,7 @@ export default class Navigatiebalk extends React.Component {
     render() {
         return (
             <div className="navbar">
-                <button onClick={this.huidigSchermAanpassen.bind(this, "Home")}>Home</button>
+                <button onClick={this.naarHome()}>Home</button>
                 <button>Overzicht</button>
                 <button>Alarm</button>
                 <button>Geschiedenis</button>
@@ -17,8 +17,9 @@ export default class Navigatiebalk extends React.Component {
 
         )
     }
-    huidigSchermAanpassen = () => {
+    naarHome = () => {
         const app = this.props.app;
-        app.setState({huidigScherm: this.props.element.titel})
+        app.setState({huidigScherm: "Home"})
     }
+
 }

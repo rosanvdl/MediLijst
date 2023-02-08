@@ -6,7 +6,7 @@ import {elementen} from "./Constanten.jsx";
 export default class Hoofdscherm extends React.Component {
 
 
-    render () {
+    render() {
         if (this.props.app.state.huidigScherm === "Home") {
 
             return (
